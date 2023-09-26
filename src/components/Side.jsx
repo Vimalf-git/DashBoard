@@ -1,12 +1,12 @@
 import React from 'react'
 import List from './List'
-
+import dashboradLogo from '../image/dashboard.svg'
 function Side() {
     const data = [
         {
             tittle: "Dashboard",
             color: "#0B63F8",
-            img: "src/image/dashboard.svg"
+            img:dashboradLogo
         }, {
             tittle: "Lab Test",
             color: "#131313",
