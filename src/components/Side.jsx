@@ -26,7 +26,7 @@ function Side() {
         }, {
             tittle: "Payment",
             color: "#131313",
-            img: "./src/image/payment.svg"
+            img: "../src/image/payment.svg"
 
         }, {
             tittle: "Settings",
