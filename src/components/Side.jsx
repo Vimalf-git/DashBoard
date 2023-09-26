@@ -1,6 +1,13 @@
 import React from 'react'
 import List from './List'
 import dashboradLogo from '../image/dashboard.svg'
+import labTestLogo from '../image/labtest.svg'
+import appointment from '../image/appoinment.svg'
+import medicineOrder from '../image/medicineOrder.svg'
+import messageLogo from '../image/sms.svg'
+import paymentLogo from '../image/payment.svg'
+import settingLogo from '../image/setting.svg'
+import helpLogo from '../image/Question.svg'
 function Side() {
     const data = [
         {
@@ -10,33 +17,33 @@ function Side() {
         }, {
             tittle: "Lab Test",
             color: "#131313",
-            img: "src/image/labtest.svg"
+            img: labTestLogo
         }, {
             tittle: "Appointment",
             color: "#131313",
-            img: "./src/image/appoinment.svg"
+            img: appointment
         }, {
             tittle: "Medicine Order",
             color: "#131313",
-            img: "src/image/medicineOrder.svg"
+            img:medicineOrder
         }, {
             tittle: "Message",
             color: "#131313",
-            img: "src/image/sms.svg"
+            img: messageLogo
         }, {
             tittle: "Payment",
             color: "#131313",
-            img: "../src/image/payment.svg"
+            img: paymentLogo
 
         }, {
             tittle: "Settings",
             color: "#131313",
-            img: "src/image/setting.svg"
+            img: settingLogo
         },
         {
             tittle: "Help",
             color: "#131313",
-            img: "src/image/Question.svg"
+            img: helpLogo
         },
     ]
     return (

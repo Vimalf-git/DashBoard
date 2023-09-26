@@ -1,6 +1,6 @@
 import React from 'react'
 import TableCom from './TableCom';
-
+import bellIconLogo from '../image/bell-icon.svg'
 
 function Content() {
   const salesInfo = [
@@ -102,7 +102,7 @@ function Content() {
       <div className='con_head'>
         <input type="email" className="form-control con-head-input" placeholder="Search" />
 
-        <img src='src/image/bell-icon.svg' />
+        <img src={bellIconLogo} />
       </div>
       {/* middle */}
       <div className='con-sales-info'>
