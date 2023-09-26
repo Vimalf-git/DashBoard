@@ -27,10 +27,11 @@
 /* side css */
 .side_bar{
     width: 20%;
-    height: auto;
+    height: 50em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    /* background-color: blue; */
 }
 
 .tittle{
@@ -46,15 +47,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items:end;
     flex-wrap: wrap;
 }
-
-
+.side_data_ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    gap: 2em;
+   
+}
+.list_li{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
 
 /* content css */
 .content{
     width: 80%;
-    height: auto;
+    height: 50em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -67,7 +82,6 @@
 
 .con_head{
     width: 90%;
-    margin-top: 2em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -103,4 +117,38 @@ height: auto;
 display: flex;
 flex-wrap: wrap;
 
+}
+
+
+@media(max-width:975px){
+    .col{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 975px;
+        height:100%;
+        /* background-color: black; */
+    
+    }
+    .side_bar{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        /* background-color: blue; */
+    }
+    .side-data{
+       width: 100%;
+        /* background-color: red; */
+    }
+    .side_data_ul{
+        width: 100%;
+        height: auto;
+        display: flex; 
+        /* background-color: aqua; */
+    }
+
+    .content{
+        width: 100%;
+    }
 }
