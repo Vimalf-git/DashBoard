@@ -29,7 +29,7 @@ function Side() {
             img: "../src/image/payment.svg"
 
         }, {
-            tittle: "Settings",
+            tittle: "Setgs",
             color: "#131313",
             img: "src/image/setting.svg"
         },
