@@ -14,7 +14,7 @@ function Side() {
         }, {
             tittle: "Appointment",
             color: "#131313",
-            img: "src/image/appoinment.svg"
+            img: "./src/image/appoinment.svg"
         }, {
             tittle: "Medicine Order",
             color: "#131313",

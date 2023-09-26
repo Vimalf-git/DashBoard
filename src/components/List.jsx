@@ -12,7 +12,7 @@ function List({ data }) {
                             <ul key={i}>
                                 <li style={{
                                     color: e.color
-                                }} className='list_li'><img src={e.img} />
+                                }} className='list_li'><img src="src/image/labtest.svg" />
                                 {e.tittle}</li>
                             </ul>
                     )
