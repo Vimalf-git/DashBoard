@@ -119,6 +119,18 @@ flex-wrap: wrap;
 
 }
 
+@media(min-width:2000px){
+    .col{
+        width: 100%;
+}
+.side_bar{
+    width: 10%;
+}
+.content{
+       
+    width: 90%;
+}
+}
 
 @media(max-width:975px){
     .col{
@@ -135,22 +147,14 @@ flex-wrap: wrap;
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        /* background-color: blue; */
-    }
-    .side-data{
-       width: 100%;
-        /* background-color: red; */
-    }
-    .side_data_ul{
-        width: 100%;
-        height: auto;
-        display: flex; 
-        /* background-color: aqua; */
     }
     .list_li>p{
         display: none;
     }
+    
     .content{
+       
         width: 90%;
     }
 }
+
