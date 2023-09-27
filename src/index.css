@@ -123,7 +123,7 @@ flex-wrap: wrap;
 @media(max-width:975px){
     .col{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: wrap;
         width: 975px;
         height:100%;
@@ -131,7 +131,7 @@ flex-wrap: wrap;
     
     }
     .side_bar{
-        width: 100%;
+        width: 10%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
@@ -147,8 +147,10 @@ flex-wrap: wrap;
         display: flex; 
         /* background-color: aqua; */
     }
-
+    .list_li>p{
+        display: none;
+    }
     .content{
-        width: 100%;
+        width: 90%;
     }
 }

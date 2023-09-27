@@ -5,21 +5,23 @@ function List({ data }) {
     // const { tittle, color, img } =data;
     // console.log(img);
     return (
-        
-            <ul className='side_data_ul'>
-                {data.map((e, i) => {
-                    return (
+        <>
+            {data.map((e, i) => {
+                return (
+                    <ul className='side_data_ul'>
 
                         <li style={{
                             color: e.color
                         }} className='list_li' key={i}><img src={e.img} />
-                            {e.tittle}
-                            
+                            <p>{e.tittle}
+                            </p>
                         </li>
+                    </ul>
 
-                    )
-                })}
-            </ul>
+                )
+            })}
+        </>
+
 
     )
 }
